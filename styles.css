@@ -1,0 +1,9 @@
+header .container {
+  background-color: #313030;
+  height: 60px;
+}
+header .container .nav__link {
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=styles.css.map */
