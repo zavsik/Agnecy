@@ -1,9 +1,120 @@
+header {
+  background-color: #f6f2f2;
+}
 header .container {
   background-color: #313030;
   height: 60px;
 }
 header .container .nav__link {
   text-transform: uppercase;
+}
+header .container .nav__link {
+  display: flex;
+  align-items: center;
+}
+header .container .nav__link .link-icon {
+  margin: 10px;
+}
+header .container .header__logo {
+  font-family: "Lemonada", cursive;
+  color: #e0e0e0;
+  display: flex;
+  justify-content: flex-end;
+}
+header .container .header__logo hr {
+  background-color: #ff2d2d;
+}
+
+.banner__org {
+  padding-bottom: 30px;
+  padding-top: 30px;
+  background-color: #f6f2f2;
+}
+.banner__org .block__info {
+  text-align: center;
+}
+.banner__org .block__info h3 {
+  font-size: larger;
+}
+.banner__org .block__info p {
+  font-size: 12px;
+}
+.banner__org .block__info button {
+  width: 150px;
+  height: 35px;
+  border-radius: 5px;
+  background-color: #ff2d2d;
+  border: none;
+  color: white;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.banner__org .block h5 {
+  font-size: 15px;
+}
+
+.banner__provide {
+  background-color: white;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+.banner__provide .block__info {
+  text-align: center;
+}
+.banner__provide .block__info h3 {
+  font-size: larger;
+  text-transform: uppercase;
+}
+.banner__provide .block__info p {
+  font-size: 12px;
+}
+.banner__provide .block__info button {
+  width: 150px;
+  height: 35px;
+  border-radius: 5px;
+  background-color: #ff2d2d;
+  border: none;
+  color: white;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.banner__products .container {
+  display: flex;
+  justify-content: center;
+}
+.banner__products .block__info {
+  text-align: center;
+}
+.banner__products .block__info h3 {
+  font-size: larger;
+  text-transform: uppercase;
+}
+.banner__products .block__info p {
+  font-size: 12px;
+  width: 200px;
+}
+.banner__products .block__info hr {
+  width: 100px;
+  background-color: #ff2d2d;
+}
+.banner__products .block__link-img .link {
+  color: #707070;
+}
+
+footer {
+  background-color: #313030;
+  color: white;
+}
+footer .block__company {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+footer .block__company p {
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
 }
 
 /*# sourceMappingURL=styles.css.map */

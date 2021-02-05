@@ -3,9 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Agnecy</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@300&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="hamburger_style.css">
+    <script src="jquery-3.5.1.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
@@ -52,50 +55,132 @@
                     </ul>
                 </div>
             </nav>
+            <div class="header__logo">
+                <!-- Change logo -->
+                <h5>Agnecy company</h5>
+            </div>
         </div>
     </header>
-    <main class="banner">
+    <main class="banner__org">
         <div class="container">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam aspernatur assumenda, at consectetur
-                consequatur cumque dolorem earum eum fuga fugiat molestias quibusdam quisquam quo repellat sequi similique
-                unde vel veniam!</p>
-            <br>
-            <br>
+            <div class="block__info">
+                <h3>Our strong  organaisation</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci at consectetur delectus
+                    excepturi explicabo impedit ipsa iste laboriosam necessitatibus nemo, perferendis perspiciatis
+                    possimus, quia repellat sequi suscipit ullam, voluptas!</p>
+                <button>Contact us</button>
+            </div>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam aspernatur assumenda, at consectetur
-                consequatur cumque dolorem earum eum fuga fugiat molestias quibusdam quisquam quo repellat sequi similique
-                unde vel veniam!</p>
-            <br>
-            <br>
+            <div class="block__video">
+                <video src="video/video__banner.mp4" autoplay preload="auto" width="100%" loop muted></video>
+            </div>
+        </div>
+    </main>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam aspernatur assumenda, at consectetur
-                consequatur cumque dolorem earum eum fuga fugiat molestias quibusdam quisquam quo repellat sequi similique
-                unde vel veniam!</p>
-            <br>
-            <br>
+    <main class="banner__provide">
+        <div class="container">
+            <div class="block__info">
+                <h3>do you know we can provide for you ?</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam consequuntur dignissimos,
+                    distinctio, eos esse eveniet explicabo facere incidunt laboriosam laudantium nesciunt odit officia
+                    quaerat, reiciendis soluta sunt ullam. Ex, reprehenderit.</p>
+                <button>Learn more</button>
+            </div>
 
+            <hr>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam aspernatur assumenda, at consectetur
-                consequatur cumque dolorem earum eum fuga fugiat molestias quibusdam quisquam quo repellat sequi similique
-                unde vel veniam!</p>
-            <br>
-            <br>
+            <div class="block__info">
+                <section>
+                    <div class="block">
+                        <h5>
+                            <img src="img/svg/settings.svg" alt="img" width="30">
+                            Management</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi at ducimus earum fugiat
+                            suscipit? Magni mollitia nam nobis nulla qui ratione suscipit! Blanditiis eum iure natus
+                            obcaecati reiciendis repudiandae vitae.</p>
+                    </div>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam aspernatur assumenda, at consectetur
-                consequatur cumque dolorem earum eum fuga fugiat molestias quibusdam quisquam quo repellat sequi similique
-                unde vel veniam!</p>
-            <br>
-            <br>
+                    <hr>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam aspernatur assumenda, at consectetur
-                consequatur cumque dolorem earum eum fuga fugiat molestias quibusdam quisquam quo repellat sequi similique
-                unde vel veniam!</p>
-            <br>
-            <br>
+                    <div class="block">
+                        <h5>
+                            <img src="img/svg/pencil.svg" alt="img" width="30">
+                            UI /UX Design</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi at ducimus earum fugiat
+                            suscipit? Magni mollitia nam nobis nulla qui ratione suscipit! Blanditiis eum iure natus
+                            obcaecati reiciendis repudiandae vitae.</p>
+                    </div>
 
+                    <hr>
+                </section>
+
+                <section>
+                    <div class="block">
+                        <h5>
+                            <img src="img/svg/diamond.svg" alt="img" width="30">
+                            Logo / Branding</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi at ducimus earum fugiat
+                            suscipit? Magni mollitia nam nobis nulla qui ratione suscipit! Blanditiis eum iure natus
+                            obcaecati reiciendis repudiandae vitae.</p>
+                    </div>
+
+                    <hr>
+
+                    <div class="block">
+                        <h5>
+                            <img src="img/svg/truck.svg" alt="img" width="30">
+                            Animation</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi at ducimus earum fugiat
+                            suscipit? Magni mollitia nam nobis nulla qui ratione suscipit! Blanditiis eum iure natus
+                            obcaecati reiciendis repudiandae vitae.</p>
+                    </div>
+
+                    <hr>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <main class="banner__products">
+        <div class="container">
+            <div class="block__info">
+                <h3>feature products</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipis cing elit,sed do</p>
+                <hr>
+
+                <div class="block__link-img">
+                    <a href="#" class="link">all</a>
+                    <a href="#" class="link">print template</a>
+                    <a href="#" class="link">web template</a>
+                    <a href="#" class="link">user interface</a>
+                    <a href="#" class="link">mock-up</a>
+                </div>
+            </div>
         </div>
     </main>
 </div>
+
+<footer class="footer">
+    <div class="container">
+        <div class="block__social-link">
+            <a href="#" class="nav__link">
+                <img src="img/svg/1468368398_Twitter_Rounded_Solid.svg" alt="" width="33">
+            </a>
+            <a href="#" class="nav__link">
+                <img src="img/svg/1468368407_LinkedIn_Rounded_Solid.svg" alt="" width="33">
+            </a>
+            <a href="#" class="nav__link">
+                <img src="img/svg/1468368412_Google_Rounded_Solid.svg" alt="" width="33">
+            </a>
+            <a href="#" class="nav__link">
+                <img src="img/svg/1468368389_Facebook_Rounded_Solid.svg" alt="" width="33">
+            </a>
+        </div>
+        <div class="block__company">
+            <p>© Copyright @Junaed 2021, All rights reserved.</p>
+        </div>
+    </div>
+</footer>
 
 </body>
 </html>
